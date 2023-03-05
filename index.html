@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>B&B Villa Zoè - Homepage</title>
+</head>
+<body>
+    
+    <header>
+
+        <!--MENU-->
+        <nav>
+            <ul> 
+                <li>Home</li>
+                <li>Camere</li>
+                <li><img src="img/" alt="Logo Villazoè"></li>
+                <li>Servizi</li>
+                <li>Prenotazioni</li>
+            </ul>
+        </nav>
+
+        <!--HERO-->
+
+        <div class="hero">
+            <h2>A Villazoè il relax è garantito...</h2>
+        </div>
+    </header>
+
+    <!--Fine header-->
+
+    <!--INIZIO CAMERE-->
+    <main class="camere">
+        <h1>Le nostre camere</h1>
+        <section class="camera foto-sx">
+            <figure><img src="img/" alt="Suite"></figure>
+            <article>
+                La nostra suite è molto grande e dotata di vasca idromassaggio, per garantirvi il meglio nel vostro soggiorno. Asciugamani, biancheria e ciabatte inclusi.
+            </article>
+        </section>
+        <section class="camera foto-dx">
+            <figure><img src="img/" alt="Camera"></figure>
+            <article>
+                La nostra camera è molto grande e dotata di bagno privato, per darvi il massimo del comfort. Asciugamani e biancheria inclusi.
+            </article>
+        </section>
+    </main>
+
+    <!--INIZIO FORM PRENOTAZIONI-->
+
+    <section class="form">
+        <form action="#">
+            <label for="Arrivo">Arrivo</label>
+            <label for="Partenza">Partenza</label>
+            <label for="La tua mail">La tua mail</label>
+            <label for="Ospiti">Ospiti</label>
+            <label for="Politica della privacy">Politica della privacy</label>
+
+            <div class="scelte">
+                <input type="date" id="arrivo" name="arrivo">
+                <input type="date" id=" partenza" name="partenza">
+                <input type="text" id="guest-mail" name="guest-mail">
+                <select name="ospiti" id="ospiti">
+                    <option value="">--Scelga un'opzione--</option>
+                    <option value="dog">1</option>
+                    <option value="cat">2</option>
+                </select>
+                <input type="checkbox">
+            </div>
+            <div class="button"><input type="submit" name="dati-preventivo" id="dati-preventivo" value="Richiedi un preventivo"></div>
+        </form>
+    </section>
+
+    <!--ICONE SERVIZI-->
+
+    <section class="servizi">
+        <figure><img src="" alt="Ammessi i cani"></figure>
+
+        <figure><img src="" alt="Wi-fi"></figure>
+
+        <figure><img src="" alt="NCC/Taxi"></figure>
+    </section>
+
+    <!--SERVIZI EXTRA-->
+
+    <section class="extra">
+        <article>
+            <figure><img src="" alt="Ampio spazio verde"></figure>
+            <h2>Passeggiate nel verde</h2>
+        </article>
+
+        <article>
+            <figure><img src="" alt="Passeggiata a cavallo"></figure>
+            <h2>Uscite a cavallo</h2>
+        </article>
+        
+        <article>
+            <figure><img src="" alt="Prodotti per colazione"></figure>
+            <h2>Prodotti locali di Forno Ruspante</h2>
+        </article>
+    </section>
+
+    <!--INIZIO FOOTER-->
+
+        <!--FOOTER INFO-->
+    <footer>
+        <div>
+            <h3>
+            <span>Prenotazioni telefoniche</span>
+            <span>Disdetta gratuita entro 24h</span>
+            <span>Nessun acconto richiesto</span>
+            </h3>
+        </div>
+        
+        <!--FOOTER DOVE SIAMO + CONTATTI-->
+        <div>
+            <div class="dove-siamo">
+                <p>Azienda a condizione familiare nella periferia di Bologna, offre accoglienza e cordialità a tutti i suoi ospiti. <br>
+                Ci troviamo in via Cà Rosa 17, Bologna 40131
+                </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d711.0012839234996!2d11.335802229231527!3d44.535527398693816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd309d656bab3%3A0x1c594038652b7a82!2sVia%20C%C3%A0%20Rosa%2C%2017%2C%2040131%20Bologna%20BO!5e0!3m2!1sit!2sit!4v1678041275619!5m2!1sit!2sit" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contatti">
+                <p><a href="mailto:info.villazoè@outlook.com">info.villazoè@outlook.com</a> <br><a href="tel:0512328396">0512328396</a></p>
+                <div class="socials">
+                    <img src="" alt="logo facebook">
+                    <img src="" alt="logo instagram">
+                </div>
+            </div>
+        </div>
+
+        <!--FOOTER COPYRIGHT-->
+        <div class="copy">
+            <h6>Villazoè &copy;<br>Codice Fiscale SNNVSL65T42A662A<br>CIS: TA073021291200017040</h6>
+            <h6>Sito a cura di Silvia Piludu <span style="color:red">&hearts;</span></h6>
+        </div>
+    </footer>   
+
+</body>
+</html>
