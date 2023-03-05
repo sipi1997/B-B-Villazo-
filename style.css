@@ -55,10 +55,72 @@ nav ul li:hover{
     margin: 50px auto;
 }
 
+.center {
+    text-align: center;
+}
 
 main {
     margin: 0 auto;
     width: 70vw;
-    border: 2px solid;
 } 
+
+.camera {
+    width: 1100px;
+    height: 300px;
+    background-color: rgba(211, 179, 114, 0.405);
+    border: 2px solid rgba(200, 102, 225, 0.7) ;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.camera figure {
+    width: 400px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.camera article {
+    border: 2px solid blue;
+    width: 600px;
+    height: 200px;
+    padding: 30px;
+}
+
+.servizi {
+    width: 40vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.servizi figure {
+    padding: 20px;
+}
+
+.form {
+    width: 40vw;
+    margin: 0 auto;
+}
+
+
+.extra {
+    clear: both;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.extra figure {
+    width: 300px;
+    height: 210px;
+    overflow: hidden;
+}
+
+.extra article {
+    width: 300px;
+    border: 2px solid;
+}
 
