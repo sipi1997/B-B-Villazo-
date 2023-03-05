@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(img/vista-da-interno.jpg);
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+main {
+    margin: 0 auto;
+    width: 70vw;
+    border: 2px solid;
+}
