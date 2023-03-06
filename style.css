@@ -4,6 +4,33 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Pacifico';
+    src: url(fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Gara';
+    src: url(fonts/EBGaramond-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'jp';
+    src: url(fonts/NotoSerifJP-Regular.otf);
+}
+
+.jp {
+    font-family: 'jp';
+}
+
+.pacifico {
+    font-family: 'Pacifico';
+}
+
+.gara {
+    font-family: 'Gara';
+}
+
 header {
     background-image: url(img/vista-da-interno.jpg);
     background-position: top center;
@@ -48,12 +75,6 @@ nav ul li:hover{
     border-bottom: 3px solid orange;
 }
 
-.hero {
-    width: 300px;
-    height: 100px;
-    margin: 50px auto;
-}
-
 .center {
     text-align: center;
 }
@@ -66,8 +87,8 @@ main {
 .camera {
     width: 1100px;
     height: 300px;
-    background-color: rgba(211, 179, 114, 0.405);
-    border: 2px solid rgba(200, 102, 225, 0.7) ;
+    background-color: #F7CA8F;
+    border: 3px solid rgba(200, 102, 225, 0.7) ;
     margin-bottom: 15px;
     display: flex;
     justify-content: center;
