@@ -21,6 +21,7 @@
 
 .jp {
     font-family: 'jp';
+    font-weight: bold;
 }
 
 .pacifico {
@@ -79,6 +80,11 @@ nav ul li:hover{
     text-align: center;
 }
 
+h1.center.pacifico{
+    margin: 40px;
+    color: rgb(109, 36, 128) ;
+}
+
 main {
     margin: 0 auto;
     width: 70vw;
@@ -107,6 +113,16 @@ main {
     padding: 30px;
 }
 
+.camera article h2 {
+    color:rgb(78, 24, 92);
+    font-style: italic;
+}
+
+.camera article p {
+    font-size: 20px;
+    padding: 20px 0;
+}
+
 .servizi {
     width: 40vw;
     margin: 0 auto;
@@ -119,9 +135,35 @@ main {
 }
 
 .form {
-    width: 40vw;
+    width: 60vw;
     margin: 0 auto;
+    background-color: #f8ea9c;
+    border: 3px solid rgb(237, 172, 88);
+    padding: 20px;
 }
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scelta label , input {
+    display: block;
+}
+
+.scelta label {
+    font-family: 'Gara';
+}
+
+/* .etichette , .scelte {
+    display: flex;
+    justify-content: space-between;
+}
+
+.etichette label {
+    padding: 4px;
+} */
 
 
 .extra {
@@ -133,14 +175,19 @@ main {
 }
 
 .extra figure {
-    width: 300px;
+    width: 310px;
     height: 210px;
     overflow: hidden;
 }
 
 .extra article {
-    width: 300px;
-    border: 2px solid;
+    width: 310px;
+}
+
+.extra article h2 {
+    color:rgb(78, 24, 92);
+    font-size: 22px;
+    padding:8px
 }
 
 .info {
@@ -173,8 +220,10 @@ main {
 }
 
 .contatti {
+    width: 300px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .contatti p a {

@@ -53,24 +53,39 @@
 
     <section class="form">
         <form action="#">
-            <label for="Arrivo">Arrivo</label>
-            <label for="Partenza">Partenza</label>
-            <label for="La tua mail">La tua mail</label>
-            <label for="Ospiti">Ospiti</label>
-            <label for="Politica della privacy">Politica della privacy</label>
-
-            <div class="scelte">
+            <div class="scelta">
+                <label for="Arrivo">Arrivo</label>
                 <input type="date" id="arrivo" name="arrivo">
+            </div>
+
+
+            <div class="scelta">
+                <label for="Partenza">Partenza</label>
                 <input type="date" id=" partenza" name="partenza">
+            </div>
+
+            <div class="scelta">
+                <label for="La tua mail">La tua mail</label>
                 <input type="text" id="guest-mail" name="guest-mail">
+            </div>
+
+            <div class="scelta">
+                <label for="Ospiti">Ospiti</label>
                 <select name="ospiti" id="ospiti">
                     <option value="">--Scelga un'opzione--</option>
                     <option value="dog">1</option>
                     <option value="cat">2</option>
                 </select>
+            </div>
+
+            <div class="scelta">
+                <label for="Politica della privacy">Politica della privacy</label>
                 <input type="checkbox">
             </div>
-            <div class="button"><input type="submit" name="dati-preventivo" id="dati-preventivo" value="Richiedi un preventivo"></div>
+
+            <div class="scelta">
+                <input type="submit" name="dati-preventivo" id="dati-preventivo" value="Richiedi un preventivo"></div>
+            </div>
         </form>
     </section>
 
@@ -99,7 +114,7 @@
         
         <article>
             <figure><img src="img/cornetti.png" alt="Cornetti con le mandorle" width="100%" height="100%"></figure>
-            <h2 class="gara">Prodotti locali di Forno Ruspante &reg;</h2>
+            <h2 class="gara">Prodotti locali di <br>Forno Ruspante &reg;</h2>
         </article>
     </section>
 
