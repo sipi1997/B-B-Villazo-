@@ -5,13 +5,18 @@
 }
 
 @font-face {
-    font-family: 'Pacifico';
-    src: url(fonts/Pacifico-Regular.ttf);
+    font-family: 'against';
+    src: url(fonts/against\ regular.ttf);
 }
 
 @font-face {
     font-family: 'Gara';
     src: url(fonts/EBGaramond-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'gara-medium';
+    src: url(fonts/EBGaramond-Medium.ttf);
 }
 
 @font-face {
@@ -24,8 +29,12 @@
     font-weight: bold;
 }
 
-.pacifico {
-    font-family: 'Pacifico';
+.gara-medium {
+    font-family: 'gara-medium';
+}
+
+.against {
+    font-family: 'Against';
 }
 
 .gara {
@@ -65,6 +74,7 @@ nav ul li a {
 
 nav ul li ul {
     display: none;
+    position: absolute;
 
 }
 
@@ -76,13 +86,23 @@ nav ul li:hover{
     border-bottom: 3px solid orange;
 }
 
+nav ul li:hover ul li{
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+/*BURGER*/
+nav label , #hamburger {
+    display: none;
+}
+
 .center {
     text-align: center;
 }
 
-h1.center.pacifico{
+h1.center.against{
     margin: 40px;
-    color: rgb(109, 36, 128) ;
+    /* color: rgb(109, 36, 128) ; */
+    color: #4C2B8F;
 }
 
 main {
@@ -93,18 +113,26 @@ main {
 .camera {
     width: 1100px;
     height: 300px;
-    background-color: #F7CA8F;
-    border: 3px solid rgba(200, 102, 225, 0.7) ;
+    background-color: rgb(255, 219, 142);
+     /* #F7CA8F; */
+    border: 3px solid #4C2B8F;
+     /* rgba(200, 102, 225, 0.7) ; */
     margin-bottom: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.camere section {
+    width: 100%;
+}
+
 .camera figure {
     width: 400px;
     height: 250px;
     overflow: hidden;
+    padding: 10px;
+    margin-left: 20px;
 }
 
 .camera article {
@@ -114,11 +142,12 @@ main {
 }
 
 .camera article h2 {
-    color:rgb(78, 24, 92);
-    font-style: italic;
+    color: #6b5792;
+    font-size: 26px;
 }
 
 .camera article p {
+    width: 500px;
     font-size: 20px;
     padding: 20px 0;
 }
@@ -134,15 +163,13 @@ main {
     padding: 20px;
 }
 
-.form {
-    width: 60vw;
-    margin: 0 auto;
-    background-color: #f8ea9c;
-    border: 3px solid rgb(237, 172, 88);
-    padding: 20px;
-}
 
 form {
+    width: 70vw;
+    margin: 0 auto;
+    background-color: #DB9447;
+    border: 3px solid rgb(237, 172, 88);
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -156,9 +183,14 @@ form {
     font-family: 'Gara';
 }
 
-/* .etichette , .scelte {
+#privacy { 
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* .etichette , .scelte {
+    
 }
 
 .etichette label {
@@ -238,3 +270,5 @@ form {
     color:antiquewhite;
     padding: 10px;
 }
+
+@import url(mediaquery.css);
